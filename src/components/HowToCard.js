@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from "styled-components";
+import { Link } from "react-router-dom";
+import EditHowTo from "./EditHowTo";
 
 const HowToStyler = styles.div`
 background-color: #CDDFD9;
@@ -21,6 +23,7 @@ const HowToCard = props => {
             User ID: <strong>{user_id}</strong>
           </div>
         </HowToStyler>
+        {/* <EditHowTo /> */}
       </div>
     );
 };
