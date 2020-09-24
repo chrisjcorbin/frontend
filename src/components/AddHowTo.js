@@ -37,24 +37,28 @@ export default function AddHowTo({ howtoList, setHowToList }) {
         type="text"
         value={formValues.title}
         onChange={onChange}
+        placeholder="Enter Title"
       />
       <input
         name="category"
         type="text"
         value={formValues.category}
         onChange={onChange}
+        placeholder="Enter Category"
       />
       <input
         name="description"
         type="text"
         value={formValues.description}
         onChange={onChange}
+        placeholder="Enter Description"
       />
       <input
         name="user_id"
         type="id"
         value={formValues.user_id}
         onChange={onChange}
+        placeholder="Enter User ID"
       />
 
       <button>submit</button>
